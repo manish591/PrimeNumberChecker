@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark-clr: #031926;
+    --light-clr: #F0F2F2;
+    --blue-shade-one: #0583F2;
+    --blue-shade-two: #044D8C;
+    --blue-shade-three: #076DF2;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--dark-clr);
+    color: var(--light-clr)
+}
+
+.container {
+    width: 100vw;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 7vh auto;
+}
+
+.title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 3vh;
+}
+
+.decription {
+    width: 80%;
+    margin-bottom: 5vh;
+}
+
+.inputarea {
+    display: flex;
+}
+
+.inputnumberhere {
+    padding: 1.8vh 1vw;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.validateprimenumber {
+    padding: 1.8vh 5vw;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
