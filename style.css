@@ -45,6 +45,7 @@ body {
 
 .inputarea {
     display: flex;
+    margin-bottom: 5vh;
 }
 
 .inputnumberhere {
@@ -57,4 +58,9 @@ body {
     padding: 1.8vh 5vw;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
+}
+
+.output {
+    font-weight: bold;
+    font-size: 1.4rem;
 }
