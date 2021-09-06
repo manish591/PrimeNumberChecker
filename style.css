@@ -64,3 +64,24 @@ body {
     font-weight: bold;
     font-size: 1.4rem;
 }
+
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 40vw;
+        background-color: var(--light-clr);
+        color: var(--dark-clr);
+        margin: 15vh auto;
+    }
+
+    .inputnumberhere {
+        padding: 3vh 1vw;
+        background-color: var(--blue-shade-three);
+    }
+
+    .validateprimenumber {
+        background-color: var(--dark-clr);
+        color: var(--light-clr);
+        width: 10vh;
+        padding: 1.8vh 1vw;
+    }
+}
